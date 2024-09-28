@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="firstpage">
+      <img src="./images/Group 4.png" alt="main" class="quizimg" />
+      <button class="startbutton">Start Now >>></button>
+    </div>
+
+    <div id="questionpage" class="questionpage">
+      <div class="inner-page">
+        <div class="head__icons">
+          <img src="./images/Group 4.png" alt="head" />
+          <div class="counter">
+            <img
+              src="./images/🦆 icon _Volume Up_.png"
+              alt=""
+              class="speaker_icon"
+            />
+            <!-- &#128263; -->
+            <p class="ques-counter">02/25</p>
+          </div>
+        </div>
+        <div>
+          <p class="question">question</p>
+          <p class="timer">00.30</p>
+          <div class="answer-options">
+            <p class="options" id="option1">option1 <span>&#10003;</span></p>
+            <p class="options" id="option2">option2 <span>&#10007;</span></p>
+            <p class="options" id="option3">option3 <span>&#10007;</span></p>
+            <p class="options" id="option4">option4 <span>&#10007;</span></p>
+          </div>
+        </div>
+        <p class="next-ques">Next ></p>
+      </div>
+    </div>
+
+    <div class="graph-page">
+      <img src="./images/Group 4.png" alt="" />
+      <p class="ressulthead">Result</p>
+      <div class="result">
+        <div class="percentage"></div>
+      </div>
+      <p class="ans-count"></p>
+      <h3>"Keep learning, you have a good score!"</h3>
+      <button class="retry-button"><<< Retry</button>
+    </div>
+  </body>
+</html>
